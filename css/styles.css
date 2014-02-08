@@ -1,0 +1,129 @@
+body {
+	/*background: #a60000;*/
+  background: url(../img/food-wallpaper.jpg);
+}
+
+#wrapper{
+  max-width: 800px;
+  min-width: 500px;
+  margin: 0 auto;
+  background: #ff0000;
+  padding: 0 10px 10px;
+}
+
+/*#navigation-bar{
+	float: left;
+	background: #ff7373;
+}
+
+#nav{
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 2em;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a:link, a:visited, a:focus, a:active{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  font-size: 1.75em;
+  text-shadow: 3px 4px 4px #00a6b9;
+  margin-left: -20px;
+  border-radius: 6px;
+}*/
+
+#nav li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin: 1em;
+}
+
+#nav li a {
+  text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+  display: block;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 1.6em;
+  margin: 0 .5em;
+}
+
+#nav li a:hover {
+  margin-top: 6px;
+}
+
+#navigation-bar {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.rectangle {
+  background: #bc2f36;
+  height: 62px;
+  position: relative;
+  -moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  z-index: 500;
+  margin: 3em 0;
+}
+
+.l-triangle-top {
+  border-color: #bf3030 transparent transparent;
+  border-style: solid;
+  border-width: 50px;
+  height: 0px;
+  width: 0px;
+  position: relative;
+  float: left;
+  top: 1px;
+  left: -50px;
+}
+
+.l-triangle-bottom {
+  border-color: transparent transparent #bf3030;
+  border-style: solid;
+  border-width: 50px;
+  height: 0px;
+  width: 0px;
+  position: relative;
+  float: left;
+  top: -40px;
+  left: -150px;
+}
+
+.r-triangle-top {
+   border-color: #bf3030 transparent transparent;
+   border-style:solid;
+   border-width:50px;
+   height:0px;
+   width:0px;
+   position: relative;
+   float: right;
+   right: -45px;
+   top: -107px;
+}
+ 
+.r-triangle-bottom {
+   border-color: transparent transparent #bf3030;
+   border-style:solid;
+   border-width:50px;
+   height:0px;
+   width:0px;
+   position: relative;
+   float: right;
+   top: -149px;
+   right: -145px;
+}
+img{
+	float: right;
+	margin-right: -130px;
+  padding-left: 5px;
+}
