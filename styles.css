@@ -1,0 +1,43 @@
+body {
+	background: #a60000;
+}
+
+#wrapper{
+  max-width: 800px;
+  min-width: 500px;
+  margin: 0 auto;
+  background: #ff0000;
+  padding: 0 10px 10px;
+}
+
+#navigation-bar{
+	float: left;
+	background: #ff7373;
+}
+
+#nav{
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 2em;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a:link, a:visited, a:focus, a:active{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  font-size: 1.75em;
+  text-shadow: 3px 4px 4px #00a6b9;
+  margin-left: -20px;
+  border-radius: 6px;
+}
+
+img{
+	float: right;
+	margin-right: -10px;
+}
