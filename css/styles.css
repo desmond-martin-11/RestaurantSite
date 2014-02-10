@@ -133,3 +133,9 @@ form {
   width: 200px;
   margin: auto 0px ;
 }
+
+h1 {
+  background: #ffdead;
+  padding-left: 2px;
+  margin-left: -10px;
+}
