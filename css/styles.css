@@ -153,3 +153,6 @@ p:first-letter {
 label {
     margin: 20px;
 }
+textarea {
+    margin: 20px;
+}
